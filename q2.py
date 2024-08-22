@@ -18,6 +18,7 @@ def insert_data():
     
 
 def bal_search():
+
     f.seek(0)
     min_balance = float(input("Enter minimum balance to search: "))
     print()
@@ -30,10 +31,12 @@ def bal_search():
 print()
 
 
+
 while True:
     print("1. Insert Data")
     print("2. Balance search")
     print("3. Exit")
+    print()
     choice = input("Enter your choice: ")
     if choice == "1":
         insert_data()
