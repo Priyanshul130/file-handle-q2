@@ -27,11 +27,7 @@ def bal_search():
         account_number, name, balance = line.strip().split(",")
         if float(balance) >= min_balance:
             print(f"Account Number: {account_number}, Name: {name}, Balance: {balance}")
-
 print()
-
-
-
 while True:
     print("1. Insert Data")
     print("2. Balance search")
