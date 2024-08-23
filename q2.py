@@ -24,15 +24,19 @@ def bal_search():
         if float(balance) >= min_balance:
             print(f"Account Number: {account_number}, Name: {name}, Balance: {balance}")
 print()
+
+
 while True:
+    #INPUT CHOICE
     print("1. Insert Data")
     print("2. Balance search")
+
     print("3. Exit")
     print()
     choice = input("Enter your choice: ")
     if choice == "1":
 
-        
+
         insert_data()
     elif choice == "2":
         bal_search()
