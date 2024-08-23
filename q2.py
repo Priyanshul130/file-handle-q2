@@ -9,6 +9,7 @@ def insert_data():
     
     name = input("Enter name: ")
     print()
+    
     balance = input("Enter balance: ")
     print()
     f.write(f"{account_number},{name},{balance}\n")
