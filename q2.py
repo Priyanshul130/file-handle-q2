@@ -31,6 +31,8 @@ while True:
     print()
     choice = input("Enter your choice: ")
     if choice == "1":
+
+        
         insert_data()
     elif choice == "2":
         bal_search()
