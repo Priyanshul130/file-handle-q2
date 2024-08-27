@@ -2,14 +2,14 @@
 also def a func to search and display 
 only those account details whose balance is more then 50,000'''
 
+
+
 f = open("bank.txt", "a+")
 def insert_data():
     account_number = input("Enter account number: ")
     print()
-    
     name = input("Enter name: ")
     print()
-    
     balance = input("Enter balance: ")
     print()
     f.write(f"{account_number},{name},{balance}\n")
